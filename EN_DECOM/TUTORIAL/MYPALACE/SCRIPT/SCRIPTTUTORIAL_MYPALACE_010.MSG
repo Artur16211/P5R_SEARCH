@@ -1,0 +1,13 @@
+﻿/*=========================================================================
+ * ８切り
+ *=========================================================================*/
+
+#SPEAKER"8 Stop"
+@TUTORIAL_MSG01
+{
+Playing an 8 will cause an <COLOR_RED>8 Stop<COLOR_DEF>, which forces the
+turn to end. The player who played the 8 card will
+get to start the next turn.
+<WAIT>
+}
+

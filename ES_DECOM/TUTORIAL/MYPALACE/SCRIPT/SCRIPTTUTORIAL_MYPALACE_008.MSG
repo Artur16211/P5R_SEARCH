@@ -1,0 +1,13 @@
+﻿/*=========================================================================
+ * 都落ち
+ *=========================================================================*/
+
+#SPEAKER"Bancarrota"
+@TUTORIAL_MSG01
+{
+Si el magnate no logra mantener su estatus
+durante la siguiente ronda, perder茨 la ronda
+y se convertir茨 en <COLOR_RED>mendigo<COLOR_DEF>.
+<WAIT>
+}
+

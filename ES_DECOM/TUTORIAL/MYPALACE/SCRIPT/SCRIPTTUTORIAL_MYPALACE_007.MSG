@@ -1,0 +1,23 @@
+﻿/*=========================================================================
+ * パス
+ *=========================================================================*/
+
+
+#SPEAKER"Pasar"
+@TUTORIAL_MSG01
+{
+Puedes pasar pulsando <COLOR_RED><PAD_KEY_NAME_CANCEL><COLOR_DEF> si no quieres
+jugar ninguna carta durante tu turno.
+<WAIT>
+}
+
+
+#SPEAKER"Pasar"
+@TUTORIAL_MSG02
+{
+Si no tienes ninguna carta
+que jugar, pasa. Si todo
+el mundo pasa, se acaba la ronda.
+<WAIT>
+}
+

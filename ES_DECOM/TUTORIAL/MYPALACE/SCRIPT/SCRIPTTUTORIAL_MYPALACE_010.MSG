@@ -1,0 +1,13 @@
+﻿/*=========================================================================
+ * ８切り
+ *=========================================================================*/
+
+#SPEAKER"Paro del 8"
+@TUTORIAL_MSG01
+{
+Si se juega un 8, se produce un <COLOR_RED>paro del 8<COLOR_DEF> que
+fuerza el final de la ronda. Quien haya jugado
+el 8 comienza la siguiente ronda.
+<WAIT>
+}
+

@@ -1,0 +1,31 @@
+﻿/*=========================================================================
+ * パレスメーカー
+ *=========================================================================*/
+#SPEAKER"Palace Maker"
+@TUTORIAL_MSG01
+{
+After you have <COLOR_RED>purchased items<COLOR_DEF> with P Medals, you
+will be able to place them within the Thieves Den.
+<WAIT>
+}
+
+
+#SPEAKER"Palace Maker"
+@TUTORIAL_MSG02
+{
+<COLOR_RED>Cognitive allies and confidants<COLOR_DEF> will come to view and
+<COLOR_RED>discuss your items<COLOR_DEF>. These characters will change when you
+enter the Thieves Den or change the item's location.
+<WAIT>
+}
+
+
+#SPEAKER"Palace Maker"
+@TUTORIAL_MSG03
+{
+You can adjust these <COLOR_RED>decorations<COLOR_DEF> based on your story
+progress. The interior of the Thieves Den may even
+change depending on your d姻cor.
+<WAIT>
+}
+

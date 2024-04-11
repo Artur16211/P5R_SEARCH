@@ -1,0 +1,178 @@
+[msg MSG_DUMMY]
+[s]...[n][w][e]
+
+[sel YESNO_SEL top]
+[s]S胤[e]
+[s]No[e]
+
+[msg MSG_BOARD_01_____]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Vamos, equipo! 斡El torneo nacional[n]es vuestro! 斡Se busca a gente[n]que anime al equipo de voleibol!位.[n][w][e]
+[s]或Aviso del consejo a los nuevos[n]estudiantes: En el Shujin,[n]acatamos las normas位.[n][w][e]
+
+[msg MSG_BOARD_M4_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Vamos, equipo! El torneo nacional[n]es vuestro!位.[n][w][e]
+[s]或En el Shujin,[n]acatamos las normas位.[n][w][e]
+
+[msg MSG_BOARD_M4_02]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Resultados de voleibol:[n]斡el profesor Kamoshida arrasa!位.[n][w][e]
+[s]或Est茨 prohibido subir[n]a la azotea del instituto位.[n][w][e]
+
+[msg MSG_BOARD_M4_03]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Ya no hacen falta m茨s animadores![n]斡Gracias por apuntaros!位.[n][w][e]
+[s]或Si algo te preocupa,[n]pide ayuda cuanto antes位.[n][w][e]
+
+[msg MSG_BOARD_M4_03_MARK]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Usar el tabl吋n de anuncios para[n]poner chistes est茨[n]estrictamente prohibido位.[n][w][e]
+[s]或Guardad silencio[n]en la sala de estudio位.[n][w][e]
+[s]或Sed considerados, quedaos[n]en la cafeter胤a el tiempo justo位.[n][w][e]
+
+[msg MSG_BOARD_M5_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Los parciales del primer semestre[n]empiezan el 11 de mayo位.[n][w][e]
+[s]或Tranquilizaos y centraos[n]en los estudios位.[n][w][e]
+[s]或斡Por favor, devolved los libros[n]dentro del plazo estipulado![n]悪Los empleados de la biblioteca位.[n][w][e]
+
+[msg MSG_BOARD_M5_02]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Tened cuidado con las estafas[n]y chantajes dirigidos[n]a los estudiantes!位.[n][w][e]
+[s]或Las notas de los parciales[n]se publicar茨n el 20 de mayo位.[n][w][e]
+
+[msg MSG_BOARD_M5_02_MARK]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Si est茨s involucrado en un delito,[n]pide ayuda cuanto antes位.[n][w][e]
+[s]或La solicitud para participar[n]en los ex茨menes de prueba[n]termina el 12 de junio位.[n][w][e]
+
+[msg MSG_BOARD_M6_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Habr茨 un viaje para los alumnos[n]de Sociales del 9 al 10 de junio位.[n][w][e]
+[s]或Comportaos mientras est姻is fuera位.[n][w][e]
+
+[msg MSG_BOARD_M6_02]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Atenci吋n! Alejaos de Shinjuku位.[n][w][e]
+[s]或Un aspecto descuidado es el[n]reflejo de un coraz吋n descuidado位.[n][w][e]
+[s]或斡Objetivo: Olimpiadas!位[n]或斡Esperamos mucho de[n]la actuaci吋n de Yoshizawa!位[n][w][e]
+
+[msg MSG_BOARD_M6_02_MARK]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Se acerca el verano, tened cuidado[n]con la intoxicaci吋n alimentaria位.[n][w][e]
+[s]或Evitad cualquier[n]rodeo innecesario位.[n][w][e]
+[s]或斡Objetivo: Olimpiadas!位[n]或斡Esperamos mucho de[n]la actuaci吋n de Yoshizawa!位[n][w][e]
+
+[msg MSG_BOARD_M7_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Fecha de los ex茨menes finales:[n]del 13 al 16 de julio位.[n][w][e]
+[s]或Las notas se publicar茨n[n]el 19 de julio位.[n][w][e]
+[s]或斡Objetivo: Olimpiadas!位[n]或斡Esperamos mucho de[n]la actuaci吋n de Yoshizawa!位[n][w][e]
+
+[msg MSG_BOARD_M7_02]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Para aprovechar el verano,[n]planead cu茨ndo vais a estudiar位.[n][w][e]
+[s]或Clases de verano:[n]del 26 al 28 de julio位.[n][w][e]
+[s]或Tu tutor se pondr茨 en contacto[n]contigo si necesitas[n]clases adicionales位.[n][w][e]
+
+[msg MSG_BOARD_M9_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Tened cuidado en el viaje escolar.[n]Preparadlo todo con tiempo位.[n][w][e]
+[s]或Actuad de forma responsable[n]y sensata位.[n][w][e]
+
+[msg MSG_BOARD_M9_02]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Tened cuidado en el viaje escolar.[n]Preparadlo todo con tiempo位.[n][w][e]
+[s]或Actuad de forma responsable[n]y sensata位.[n][w][e]
+[s]或URGENTE: 斡C吋mo tratar[n]con los medios![n][w][e]
+
+[msg MSG_BOARD_M9_03]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Se celebrar茨 una reuni吋n especial[n]con los padres para informar[n]sobre la muerte del director位.[n][w][e]
+[s]或Recordamos a todos los estudiantes[n]que mantengan la calma位.[n][w][e]
+
+[msg MSG_BOARD_M9_03_MARK]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Venid con varias ideas a la sesi吋n[n]de orientaci吋n profesional位.[n][w][e]
+[s]或Los parciales del segundo semestre[n]empiezan el 17 de octubre位.[n][w][e]
+
+[msg MSG_BOARD_M10_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Se acerca el festival del[n]instituto, que se celebrar茨[n]el 25 y 26 de octubre!位.[n][w][e]
+
+[msg MSG_BOARD_M10_02]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Goro Akechi es el invitado[n]por excelencia del festival!位.[n][w][e]
+[s]或El evento "Preg雨ntale al detective[n]prodigioso" se celebrar茨 el segundo[n]d胤a de festival por la tarde位.[n][w][e]
+
+[msg MSG_BOARD_M10_03]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Se acerca el invierno! El 雨ltimo[n]esprint de los que ir茨n[n]a la universidad位.[n][w][e]
+[s]或No subestimes la pol胤tica,[n]que con ella se cambia el futuro位.[n][w][e]
+
+[msg MSG_BOARD_M3_01]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Notas del examen de acceso[n]y lista de universidades位.[n][w][e]
+[s]或斡Los Ladrones Fantasma[n]de Corazones se dejan ver[n]por el Instituto Shujin!位.[n][w][e]
+[s]或斡Los Ladrones Fantasma[n]son los mejores!位.[n][w][e]
+[s]或斡Adi吋s, Ladrones Fantasma!位.[n][w][e]
+
+[msg MSG_BOARD_M4_04]
+[s]Hay un folleto sobre[n]la gimnasta honor胤fica.[n][w][e]
+[s]Por lo visto, hay una[n]competici吋n de gimnasia r胤tmica.[n][w][e]
+
+[msg MSG_BOARD_M5_01_1]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Los parciales del primer semestre[n]empiezan el 11 de mayo位.[n][w][e]
+[s]或Tranquilizaos y centraos[n]en los estudios位.[n][w][e]
+[s]或斡Por favor, devolved los libros[n]dentro del plazo estipulado![n]悪Los empleados de la biblioteca位.[n][w][e]
+
+[msg MSG_BOARD_M5_01_MARUKI]
+[s]Hay folletos en este tabl吋n.[n][w][e]
+[s]Hay muchos folletos sobre las[n]sesiones de orientaci吋n.[n][w][e]
+
+[msg MSG_BOARD_M5_01_2]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Los parciales del primer semestre[n]empiezan el 11 de mayo位.[n][w][e]
+[s]或Tranquilizaos y centraos[n]en los estudios位.[n][w][e]
+[s]或斡Por favor, devolved los libros[n]dentro del plazo estipulado![n]悪Los empleados de la biblioteca位.[n][w][e]
+[s]或Notificaci吋n sobre[n]el evento de limpieza位[n][w][e]
+
+[msg MSG_BOARD_M5_02_1]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Tened cuidado con las estafas[n]y chantajes dirigidos[n]a los estudiantes!位.[n][w][e]
+[s]或Las notas de los parciales[n]se publicar茨n el 20 de mayo位.[n][w][e]
+[s]或Notificaci吋n sobre[n]el evento de limpieza位[n][w][e]
+
+[msg MSG_BOARD_M5_02_MARK_1]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Si est茨s involucrado en un delito,[n]pide ayuda cuanto antes位.[n][w][e]
+[s]或La solicitud para participar[n]en los ex茨menes de prueba[n]termina el 12 de junio位.[n][w][e]
+[s]或Notificaci吋n sobre[n]el evento de limpieza位[n][w][e]
+
+[msg MSG_BOARD_M5_02_2]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或斡Tened cuidado con las estafas[n]y chantajes dirigidos[n]a los estudiantes!位.[n][w][e]
+[s]或Las notas de los parciales[n]se publicar茨n el 20 de mayo位.[n][w][e]
+[s]或斡Objetivo: Olimpiadas!位[n]或斡Esperamos mucho de[n]la actuaci吋n de Yoshizawa!位[n][w][e]
+
+[msg MSG_BOARD_M5_02_MARK_2]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Si est茨s involucrado en un delito,[n]pide ayuda cuanto antes位.[n][w][e]
+[s]或La solicitud para participar[n]en los ex茨menes de prueba[n]termina el 12 de junio位.[n][w][e]
+[s]或斡Objetivo: Olimpiadas!位[n]或斡Esperamos mucho de[n]la actuaci吋n de Yoshizawa!位[n][w][e]
+
+[msg MSG_BOARD_M6_01_1]
+[s]Hay varios folletos en el tabl吋n.[n][w][e]
+[s]或Habr茨 un viaje para los alumnos[n]de Sociales del 9 al 10 de junio位.[n][w][e]
+[s]或Comportaos mientras est姻is fuera位.[n][w][e]
+[s]或斡Objetivo: Olimpiadas!位[n]或斡Esperamos mucho de[n]la actuaci吋n de Yoshizawa!位[n][w][e]
+
+[msg MSG_BOARD_M11_01]
+[s]Hay folletos sobre orientaci吋n.[n][w][e]
+[s]Parece que Maruki[n]va a estar trabajando aqu胤[n]18 d胤as m茨s.[n][w][e]
+
+[msg MSG_BOARD_M11_02]
+[s]Puedo ir a sesiones de orientaci吋n[n]hasta el d胤a anterior...[n]夷Deber胤a visitar a Maruki?[n][w][e]
+

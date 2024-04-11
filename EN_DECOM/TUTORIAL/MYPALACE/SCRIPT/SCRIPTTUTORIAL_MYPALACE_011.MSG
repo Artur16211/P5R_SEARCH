@@ -1,0 +1,14 @@
+﻿/*=========================================================================
+ * ジョーカー
+ *=========================================================================*/
+
+
+#SPEAKER"Joker"
+@TUTORIAL_MSG01
+{
+The Joker card is stronger than a 2 and a 3, and
+can also be used as another number. Also, playing
+the Joker card as shown will trigger a Revolution.
+<WAIT>
+}
+

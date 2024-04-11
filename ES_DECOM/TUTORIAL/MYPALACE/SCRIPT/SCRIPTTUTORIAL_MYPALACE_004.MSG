@@ -1,0 +1,30 @@
+﻿/*=========================================================================
+ * 大富豪
+ *=========================================================================*/
+
+
+#SPEAKER"Magnate"
+@TUTORIAL_MSG01
+{
+Re雨ne a tu equipo y jugad a Magnate. <COLOR_RED>Un set consta
+de tres partidas<COLOR_DEF>. Tu <COLOR_RED>rango final<COLOR_DEF> quedar茨 determinado
+por los puntos obtenidos en cada ronda.
+<WAIT>
+}
+
+
+@TUTORIAL_MSG02
+{
+Seg雨n la dificultad y tu rango final,
+obtendr茨s m茨s medallas P. Completa desaf胤os para
+ganar m茨s puntos. Ve a <COLOR_RED>Desaf胤os<COLOR_DEF> para saber m茨s.
+<WAIT>
+}
+
+
+@TUTORIAL_MSG03
+{
+Tus r姻cords se mostrar茨n en <COLOR_RED>R姻cords<COLOR_DEF>.
+<WAIT>
+}
+

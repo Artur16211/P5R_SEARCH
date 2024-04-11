@@ -1,0 +1,13 @@
+﻿/*=========================================================================
+ * 都落ち
+ *=========================================================================*/
+
+#SPEAKER"Bankrupt"
+@TUTORIAL_MSG01
+{
+If the Tycoon is not able to maintain their status
+during the next round, that player will lose the
+round and <COLOR_RED>become the Beggar<COLOR_DEF>.
+<WAIT>
+}
+

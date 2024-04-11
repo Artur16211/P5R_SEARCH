@@ -1,0 +1,14 @@
+﻿/*=========================================================================
+ * カード交換
+ *=========================================================================*/
+
+#SPEAKER"Intercambio de cartas"
+@TUTORIAL_MSG01
+{
+Las <COLOR_RED>cartas se intercambian<COLOR_DEF> antes de comenzar
+la siguiente ronda. El magnate y el mendigo
+intercambian dos; el adinerado y el pobre, una,
+y el pobre y el mendigo, sus mejores cartas.
+<WAIT>
+}
+

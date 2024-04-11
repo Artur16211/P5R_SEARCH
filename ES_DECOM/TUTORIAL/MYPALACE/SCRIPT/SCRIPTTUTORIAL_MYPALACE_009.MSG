@@ -1,0 +1,14 @@
+﻿/*=========================================================================
+ * 革命
+ *=========================================================================*/
+
+
+#SPEAKER"Revoluciones y contrarrevoluciones"
+@TUTORIAL_MSG01
+{
+Si juegas cuatro cartas del mismo n雨mero, se activa
+una <COLOR_RED>revoluci吋n<COLOR_DEF> que invierte el valor de todas las cartas.
+Si se repite, las cartas volver茨n a la normalidad.
+<WAIT>
+}
+

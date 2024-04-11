@@ -1,0 +1,14 @@
+﻿/*=========================================================================
+ * ジョーカー
+ *=========================================================================*/
+
+
+#SPEAKER"Joker"
+@TUTORIAL_MSG01
+{
+El Joker es m茨s fuerte que un 2 o un 3
+y se puede usar como cualquier otro n雨mero.
+Si se juega el Joker, se activar茨 una revoluci吋n.
+<WAIT>
+}
+

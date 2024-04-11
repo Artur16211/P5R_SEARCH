@@ -1,0 +1,6 @@
+[msg MSG_012_0_0 [Morgana]]
+[s][bup 0 3 2 0 0][f 4 10 65535 0 0][vp 8 0 0 1 65535 0]Estamos en un momento crucial.[n][f 1 3 65535][w][e]
+
+[msg MSG_017_0_0 [Morgana]]
+[s][bup 0 3 0 0 0][f 4 10 65535 0 0][vp 8 0 0 2 65535 0]Pero perder los nervios ahora[n]no vale la pena. Tranquilic姻monos[n]y esperemos hasta ma隠ana.[n][f 1 3 65535][w][e]
+

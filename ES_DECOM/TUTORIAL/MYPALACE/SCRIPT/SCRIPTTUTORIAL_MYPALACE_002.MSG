@@ -1,0 +1,32 @@
+﻿/*=========================================================================
+ * パレスメーカー
+ *=========================================================================*/
+#SPEAKER"Creador de Palacio"
+@TUTORIAL_MSG01
+{
+Una vez hayas <COLOR_RED>comprado objetos<COLOR_DEF>
+con medallas P, podr茨s colocarlos
+en la Guarida de los Ladrones.
+<WAIT>
+}
+
+
+#SPEAKER"Creador de Palacio"
+@TUTORIAL_MSG02
+{
+<COLOR_RED>Los aliados cognitivos y los Confidentes<COLOR_DEF> vendr茨n a ver y
+<COLOR_RED>hablar de tus objetos<COLOR_DEF>. Esos personajes cambiar茨n cuando
+entres en la Guarida o cambies la ubicaci吋n del objeto.
+<WAIT>
+}
+
+
+#SPEAKER"Creador de Palacio"
+@TUTORIAL_MSG03
+{
+Puedes ajustar la <COLOR_RED>decoraci吋n<COLOR_DEF> seg雨n el progreso
+de la historia. El interior de la Guarida de los Ladrones
+puede cambiar en funci吋n de la decoraci吋n.
+<WAIT>
+}
+

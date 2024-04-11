@@ -1,0 +1,21 @@
+﻿/*=========================================================================
+ * 変身床
+ *=========================================================================*/
+#SPEAKER"Transformation Tile"
+@TUTORIAL_MSG01
+{
+By stepping on certain tiles in the Thieves Den, you
+can <COLOR_RED>change your character to whoever is drawn on the
+tile<COLOR_DEF>.
+<WAIT>
+}
+
+
+#SPEAKER"Transformation Tile"
+@TUTORIAL_MSG02
+{
+By stepping on the same tile, you will be able to
+change into different outfits. Press <COLOR_RED><PAD_KEY_NAME_COSTUME_RESET><COLOR_DEF> to return to
+your normal self.
+<WAIT>
+}

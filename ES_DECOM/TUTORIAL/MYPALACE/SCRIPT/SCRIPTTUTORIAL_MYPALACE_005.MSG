@@ -1,0 +1,25 @@
+﻿/*=========================================================================
+ * 大富豪のルール
+ *=========================================================================*/
+
+
+#SPEAKER"Reglas de Magnate"
+@TUTORIAL_MSG01
+{
+El n雨mero de una carta indica su fuerza. Cada
+carta debe vencer a la anterior y el n雨mero de cartas
+en juego debe ser el mismo (p. ej., pares).
+La <COLOR_RED>carta m茨s d姻bil es 3<COLOR_DEF> y la <COLOR_RED>m茨s poderosa es 2<COLOR_DEF>.
+<WAIT>
+}
+
+
+@TUTORIAL_MSG02
+{
+Empieza quien tenga el <COLOR_RED>3 de diamantes<COLOR_DEF>.
+Despu姻s, las rondas las empezar茨 el mendigo.
+Para saber m茨s, consulta 或Tutoriales位
+o pulsa <PAD_KEY_NAME_TYCOON_RULE> mientras juegas.
+<WAIT>
+}
+

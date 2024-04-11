@@ -1,0 +1,25 @@
+﻿/*=========================================================================
+ * 大富豪のルール
+ *=========================================================================*/
+
+
+#SPEAKER"Rules of Tycoon"
+@TUTORIAL_MSG01
+{
+A card's number determines its strength. Each card
+must beat the previous one and the number of cards
+in play must be met (such as pairs). The <COLOR_RED>weakest
+card is 3<COLOR_DEF>, but the <COLOR_RED>strongest is 2<COLOR_DEF>.
+<WAIT>
+}
+
+
+@TUTORIAL_MSG02
+{
+The player holding the <COLOR_RED>3 of Diamonds<COLOR_DEF> will go first
+and the Beggar starts each subsequent round. For
+additional information, check "Tutorials" or press 
+<PAD_KEY_NAME_TYCOON_RULE> while playing Tycoon.
+<WAIT>
+}
+

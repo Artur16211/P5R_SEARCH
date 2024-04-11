@@ -1,0 +1,30 @@
+﻿/*=========================================================================
+ * 大富豪
+ *=========================================================================*/
+
+
+#SPEAKER"Tycoon"
+@TUTORIAL_MSG01
+{
+Gather your party and play Tycoon. <COLOR_RED>1 game consists
+of 3 rounds<COLOR_DEF>. Your <COLOR_RED>final rank<COLOR_DEF> is determined by
+how many points you obtained each round.
+<WAIT>
+}
+
+
+@TUTORIAL_MSG02
+{
+Depending on the difficulty and your final rank, you
+will obtain more P Medals. Complete challenges to
+gain more points. See <COLOR_RED>Challenges<COLOR_DEF> for more details.
+<WAIT>
+}
+
+
+@TUTORIAL_MSG03
+{
+Your records will show up in <COLOR_RED>Records<COLOR_DEF>.
+<WAIT>
+}
+

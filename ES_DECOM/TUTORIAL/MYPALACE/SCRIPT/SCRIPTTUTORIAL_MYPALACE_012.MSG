@@ -1,0 +1,12 @@
+﻿/*=========================================================================
+ * スペ３返し
+ *=========================================================================*/
+
+#SPEAKER"Reversi吋n del 3 de picas"
+@TUTORIAL_MSG01
+{
+Jugar un 3 de picas despu姻s de un Joker
+activa la <COLOR_RED>Reversi吋n del 3 de picas<COLOR_DEF> y termina la ronda.
+<WAIT>
+}
+

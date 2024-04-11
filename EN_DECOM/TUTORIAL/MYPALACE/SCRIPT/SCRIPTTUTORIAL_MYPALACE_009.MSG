@@ -1,0 +1,14 @@
+﻿/*=========================================================================
+ * 革命
+ *=========================================================================*/
+
+
+#SPEAKER"Revolutions and Counter Revolutions"
+@TUTORIAL_MSG01
+{
+Playing four of the same card triggers a <COLOR_RED>Revolution<COLOR_DEF>,
+reversing the value of all cards. Repeating this move
+will return the cards to normal.
+<WAIT>
+}
+

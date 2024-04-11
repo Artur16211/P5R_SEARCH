@@ -1,0 +1,883 @@
+[msg dummy_mes]
+[s]...[n][w][e]
+
+[msg D151_01_miniEV01_mes01 [Ryuji]]
+[s][bup 0 2 104 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7040 65535 0]Espera, 夷no es esta la entrada?[n]As胤 que est茨 conectada aqu胤...[n][w][e]
+
+[msg D151_01_miniEV01_mes02 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Parece que desde aqu胤 tambi姻n[n]se puede bajar. Este podr胤a ser[n]un buen punto de infiltraci吋n.[n][w][e]
+
+[sel D_VELVET_IN_SEL top]
+[s]D姻jame entrar en la celda.[e]
+[s]No quiero entrar.[e]
+
+[msg D_VELVET_IN_QUIET_01 [Justine]]
+[s][bup 0 101 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 0 12002 65535 0]Parece que echas de menos[n]tu prisi吋n. La soluci吋n es f茨cil...[n][w][e]
+
+[msg D_VELVET_IN_QUIET_OK [Justine]]
+[s][bup 0 101 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien, conceder姻 tu deseo[n]con much胤simo gusto...[n][w][e]
+
+[msg D_VELVET_IN_QUIET_NO [Justine]]
+[s][bup 0 101 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Contin雨a con tu sufrimiento...[n][w][e]
+
+[msg D_VELVET_IN_LOUD_01 [Caroline]]
+[s][bup 0 102 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Qu姻 ocurre, recluso?[n]夷Echas de menos la prisi吋n?[n][w][e]
+
+[msg D_VELVET_IN_LOUD_OK [Caroline]]
+[s][bup 0 102 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Te voy a devolver al sitio[n]al que perteneces! 斡Je, je, je![n][w][e]
+
+[msg D_VELVET_IN_LOUD_NO [Caroline]]
+[s][bup 0 102 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Sigue sufriendo, recluso.[n][w][e]
+
+[msg D_VELVET_IN_LAST_01 [Lavenza]]
+[s][bup 0 100 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Te llevar姻 hasta mi maestro...[n][w][e]
+
+[sel D_VELVET_IN_LAST_SEL top]
+[s]Quiero prepararme.[e]
+[s]No quiero entrar.[e]
+
+[msg D_VELVET_IN_LAST_OK [Lavenza]]
+[s][bup 0 100 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Entra, por favor.[n][w][e]
+
+[msg D_VELVET_IN_LAST_NO [Lavenza]]
+[s][bup 0 100 0 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien, mi maestro y yo[n]te estaremos vigilando.[n][w][e]
+
+[msg D_BRIEFING_START_PC03_me [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Venga, empecemos la reuni吋n![n][w][e]
+
+[msg D_BRIEFING_NEXT_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Hay algo m茨s de lo que[n]quieras hablar?[n][w][e]
+
+[msg D_BRIEFING_END_PC03_mes0 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, posponemos la reuni吋n.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC [Ryuji]]
+[s][vp 1 0 0 2138 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Bien! Parece que este sitio[n]es seguro.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_2 [Morgana]]
+[s][vp 1 0 0 3138 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hala, una nueva Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_3 [Ann]]
+[s][vp 1 0 0 4138 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Es un sitio genial[n]para una Habitaci吋n segura![n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_4 [Yusuke]]
+[s][vp 1 0 0 5138 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Mmm, podr胤amos sacarle partido.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_5 [Makoto]]
+[s][vp 1 0 0 6138 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Mmm, esta zona est茨 bien.[n]Nos servir茨 como Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_6 [Futaba]]
+[s][vp 1 0 0 8138 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Anda, una Habitaci吋n segura.[n]Aqu胤 podemos relajarnos.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_7 [Haru]]
+[s][vp 1 0 0 7138 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]No sab胤a que hubiera[n]una Habitaci吋n segura aqu胤.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_8 [Akechi]]
+[s][vp 1 0 0 9138 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Anda, una Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_01_PC_9 [[f 4 31 10 0]]]
+[s][vp 1 0 0 10138 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aqu胤 hay una Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC [Ryuji]]
+[s][vp 1 0 0 2139 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Oye, podr胤amos sacarle partido a este sitio![n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_2 [Morgana]]
+[s][vp 1 0 0 3139 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Mmm, parece que podemos usar[n]este lugar para descansar.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_3 [Ann]]
+[s][vp 1 0 0 4139 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Es una Habitaci吋n segura![n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_4 [Yusuke]]
+[s][vp 1 0 0 5139 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hemos encontrado una nueva[n]Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_5 [Makoto]]
+[s][vp 1 0 0 6139 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]S胤, parece que aqu胤 podemos descansar.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_6 [Futaba]]
+[s][vp 1 0 0 8139 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aqu胤 estamos a salvo.[n]夷Nos tomamos un descanso?[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_7 [Haru]]
+[s][vp 1 0 0 7139 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Este sitio parece seguro.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_8 [Akechi]]
+[s][vp 1 0 0 9139 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uy, una Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_02_PC_9 [[f 4 31 10 0]]]
+[s][vp 1 0 0 10139 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Es una Habitaci吋n segura.[n]夷Entramos?[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC [Ryuji]]
+[s][vp 1 0 0 2140 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Qu姻 bien. 斡Podemos usar este lugar[n]como Habitaci吋n segura![n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_2 [Morgana]]
+[s][vp 1 0 0 3140 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Le sacaremos partido.[n]Vamos a descansar un poco, Joker.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_3 [Ann]]
+[s][vp 1 0 0 4140 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Una Habitaci吋n segura! 斡Menos mal![n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_4 [Yusuke]]
+[s][vp 1 0 0 5140 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Este espacio es bastante[n]interesante... Podr胤amos[n]usarlo como Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_5 [Makoto]]
+[s][vp 1 0 0 6140 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Podemos usar este lugar como Habitaci吋n segura.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_6 [Futaba]]
+[s][vp 1 0 0 8140 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Qu姻 lugar tan tranquilo.[n]Vamos a sentarnos un rato.[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_7 [Haru]]
+[s][vp 1 0 0 7140 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Hemos encontrado una Habitaci吋n segura![n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_8 [Akechi]]
+[s][vp 1 0 0 9140 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Una Habitaci吋n segura.[n]夷Nos tomamos un descanso?[n][w][e]
+
+[msg SAFE_DISCOVERY_MES_03_PC_9 [[f 4 31 10 0]]]
+[s][vp 1 0 0 10140 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]He encontrado una Habitaci吋n[n]segura. 夷Echamos un vistazo?[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC02 [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Genial, creo que podremos[n]volver aqu胤 si queremos.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC03 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Esta ser胤a una buena base. Podemos[n]continuar la infiltraci吋n desde[n]aqu胤 si nos tomamos un descanso.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC04 [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a apuntar este sitio[n]para poder volver despu姻s.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC05 [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Creo que este es un lugar adecuado[n]desde el que continuar.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC06 [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Podr胤amos continuar la infiltraci吋n[n]m茨s adelante desde aqu胤.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC07 [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Guay, podemos usar este sitio como base[n]para seguir infiltr茨ndonos en la mazmorra![n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC08 [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Creo que podremos retomar la[n]operaci吋n desde aqu胤 m茨s adelante.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC09 [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Parece que podremos continuar[n]desde aqu胤 la pr吋xima vez.[n][w][e]
+
+[msg SAFE_RETURN_TALK_01_PC10 [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Podemos usar esta zona como base.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC02_mes [Ryuji]]
+[s][vp 1 0 0 2141 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uf, aqu胤 podemos descansar.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC03_mes [Morgana]]
+[s][vp 1 0 0 3141 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, a descansar un poquillo.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC04_mes [Ann]]
+[s][vp 1 0 0 4141 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uf, por fin podemos descansar.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC05_mes [Yusuke]]
+[s][vp 1 0 0 5141 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Mmm, descansemos aqu胤 un poco.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC06_mes [Makoto]]
+[s][vp 1 0 0 6141 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Descansemos un poco, 夷vale?[n][w][e]
+
+[msg SAFE_IN_MES_01_PC07_mes [Futaba]]
+[s][vp 1 0 0 8141 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Puedo descansar un segundo, 夷no?[n]Tranquilo, que no me duermo.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC08_mes [Haru]]
+[s][vp 1 0 0 7141 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uf, vamos a descansar un poco.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC09_mes [Akechi]]
+[s][vp 1 0 0 9141 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aqu胤 podremos darnosun respiro, menos mal.[n][w][e]
+
+[msg SAFE_IN_MES_01_PC10_mes [[f 4 31 10 0]]]
+[s][vp 1 0 0 10141 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aqu胤 podremos darnos un respiro.[n][w][e]
+
+[msg SAFE_IN_MES_02_PC02_mes [Ryuji]]
+[s][vp 1 0 0 2142 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]De acuerdo, vamos a descansar un rato.[n][w][e]
+
+[msg SAFE_IN_MES_02_PC03_mes [Morgana]]
+[s][vp 1 0 0 3142 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Vale, vamos a descansar un rato![n][w][e]
+
+[msg SAFE_IN_MES_02_PC04_mes [Ann]]
+[s][vp 1 0 0 4142 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Eh, vamos a descansar aqu胤.[n][w][e]
+
+[msg SAFE_IN_MES_02_PC05_mes [Yusuke]]
+[s][vp 1 0 0 5142 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uf, descansemos un poco.[n][w][e]
+
+[msg SAFE_IN_MES_02_PC06_mes [Makoto]]
+[s][vp 1 0 0 6142 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aqu胤 podremos darnos un respiro.[n][w][e]
+
+[msg SAFE_IN_MES_02_PC07_mes [Futaba]]
+[s][vp 1 0 0 8142 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Un lugar seguro! Aqu胤 podemos[n]relajarnos un rato.[n][w][e]
+
+[msg SAFE_IN_MES_02_PC08_mes [Haru]]
+[s][vp 1 0 0 7142 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Por qu姻 no descansamos un poco?[n][w][e]
+
+[msg SAFE_IN_MES_02_PC09_mes [Akechi]]
+[s][vp 1 0 0 9142 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Hacemos un descanso?[n][w][e]
+
+[msg SAFE_IN_MES_02_PC10_mes [[f 4 31 10 0]]]
+[s][vp 1 0 0 10142 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a descansar un poco.[n][w][e]
+
+[msg SAFE_IN_MES_03_PC02_mes [Ryuji]]
+[s][vp 1 0 0 2143 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Bien, hemos llegado[n]a la Habitaci吋n segura![n][w][e]
+
+[msg SAFE_IN_MES_03_PC03_mes [Morgana]]
+[s][vp 1 0 0 3143 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, descansemos un rato.[n][w][e]
+
+[msg SAFE_IN_MES_03_PC04_mes [Ann]]
+[s][vp 1 0 0 4143 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Por fin podemos descansar un poco.[n][w][e]
+
+[msg SAFE_IN_MES_03_PC05_mes [Yusuke]]
+[s][vp 1 0 0 5143 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Y si nos tomamos un descansito?[n][w][e]
+
+[msg SAFE_IN_MES_03_PC06_mes [Makoto]]
+[s][vp 1 0 0 6143 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uf, aqu胤 podemos descansar.[n][w][e]
+
+[msg SAFE_IN_MES_03_PC07_mes [Futaba]]
+[s][vp 1 0 0 8143 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Hemos encontrado una Habitaci吋n[n]segura! Nos vendr茨 bien[n]para relajarnos y matar el tiempo.[n][w][e]
+
+[msg SAFE_IN_MES_03_PC08_mes [Haru]]
+[s][vp 1 0 0 7143 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a descansar un rato.[n][w][e]
+
+[msg SAFE_IN_MES_03_PC09_mes [Akechi]]
+[s][vp 1 0 0 9143 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Por qu姻 no descansamos un rato?[n][w][e]
+
+[msg SAFE_IN_MES_03_PC10_mes [[f 4 31 10 0]]]
+[s][vp 1 0 0 10143 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Deber胤amos estar seguros aqu胤.[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0 [Ryuji]]
+[s][vp 1 0 0 2042 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Genial! 斡Hemos llegado muy lejos![n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_2 [Morgana]]
+[s][vp 1 0 0 3042 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, 夷y qu姻 hacemos ahora?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_3 [Ann]]
+[s][vp 1 0 0 4042 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya estamos aqu胤. 夷Qu姻 hacemos?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_4 [Yusuke]]
+[s][vp 1 0 0 5042 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya estamos aqu胤. 夷Ahora qu姻?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_5 [Makoto]]
+[s][vp 1 0 0 6042 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya hemos llegado. V茨monos.[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_6 [Futaba]]
+[s][vp 1 0 0 8042 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya hemos llegado. 夷Y ahora qu姻?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_7 [Haru]]
+[s][vp 1 0 0 7042 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya estamos aqu胤. 夷Qu姻 hacemos?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC0_8 [Akechi]]
+[s][vp 1 0 0 9042 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hemos llegado.[n]夷Qu姻 hacemos ahora?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_01_PC1 [[f 4 31 10 0]]]
+[s][vp 1 0 0 10042 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Lo conseguimos. 夷Ahora d吋nde?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0 [Ryuji]]
+[s][vp 1 0 0 2043 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Yyy... 斡aqu胤 estamos![n]夷Qu姻 quieres hacer ahora?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_2 [Morgana]]
+[s][vp 1 0 0 3043 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya estamos aqu胤. 斡Continuemos![n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_3 [Ann]]
+[s][vp 1 0 0 4043 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien.[n]夷Ad吋nde quieres ir ahora?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_4 [Yusuke]]
+[s][vp 1 0 0 5043 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya hemos llegado.[n]Bueno, 夷qu姻 hacemos?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_5 [Makoto]]
+[s][vp 1 0 0 6043 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hemos llegado a salvo.[n]Sigamos adelante.[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_6 [Futaba]]
+[s][vp 1 0 0 8043 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Ya hemos llegado? 夷Qu姻 hacemos ahora?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_7 [Haru]]
+[s][vp 1 0 0 7043 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya hemos llegado.[n]Sigamos explorando.[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC0_8 [Akechi]]
+[s][vp 1 0 0 9043 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya hemos llegado.[n]夷Qu姻 hacemos ahora?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_02_PC1 [[f 4 31 10 0]]]
+[s][vp 1 0 0 10043 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Llegamos. 斡A explorar![n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0 [Ryuji]]
+[s][vp 1 0 0 2044 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, 夷y ahora ad吋nde vamos?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_2 [Morgana]]
+[s][vp 1 0 0 3044 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hemos llegado.[n]Sigamos avanzando, Joker.[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_3 [Ann]]
+[s][vp 1 0 0 4044 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hemos llegado.[n]夷Y ahora qu姻 hacemos?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_4 [Yusuke]]
+[s][vp 1 0 0 5044 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Recorrido completado.[n]Continuemos explorando.[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_5 [Makoto]]
+[s][vp 1 0 0 6044 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ya hemos llegado.[n]夷Qu姻 hacemos ahora, Joker?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_6 [Futaba]]
+[s][vp 1 0 0 8044 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]As胤 que aqu胤 empieza, 夷eh?[n]夷Hacia d吋nde apuntamos?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_7 [Haru]]
+[s][vp 1 0 0 7044 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien, sigamos.[n]夷Qu姻 plan hay, Joker?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC0_8 [Akechi]]
+[s][vp 1 0 0 9044 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hemos llegado.[n]夷Seguimos adelante?[n][w][e]
+
+[msg FASTTRAVEL_IN_MES_03_PC1 [[f 4 31 10 0]]]
+[s][vp 1 0 0 10044 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Lleg吋 el momento de explorar.[n]夷Cu茨les son tus 吋rdenes?[n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC02_me [Ryuji]]
+[s][vp 1 0 0 2144 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, vamos.[n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC03_me [Morgana]]
+[s][vp 1 0 0 3144 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos.[n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC04_me [Ann]]
+[s][vp 1 0 0 4144 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien, vamos.[n]斡A雨n nos queda trabajo por hacer![n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC05_me [Yusuke]]
+[s][vp 1 0 0 5144 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, vamos.[n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC06_me [Makoto]]
+[s][vp 1 0 0 6144 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Vale, volvamos a explorar![n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC07_me [Futaba]]
+[s][vp 1 0 0 8144 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Venga, hora de irse![n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC08_me [Haru]]
+[s][vp 1 0 0 7144 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ahora, v茨monos.[n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC09_me [Akechi]]
+[s][vp 8 2 1 8099 65535 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, nos vamos.[n][w][e]
+
+[msg SAFE_EXIT_LOW_01_PC10_me [[f 4 31 10 0]]]
+[s][vp 1 0 0 10144 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Vamos![n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC02_me [Ryuji]]
+[s][vp 1 0 0 2145 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Venga, vamos![n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC03_me [Morgana]]
+[s][vp 1 0 0 3145 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, 斡el tesoro nos espera![n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC04_me [Ann]]
+[s][vp 1 0 0 4145 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, volvamos a explorar.[n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC05_me [Yusuke]]
+[s][vp 1 0 0 5145 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien, vuelta al tajo.[n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC06_me [Makoto]]
+[s][vp 1 0 0 6145 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Entendido. Volvamos al trabajo.[n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC07_me [Futaba]]
+[s][vp 1 0 0 8145 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷A雨n no nos han pillado?[n]Pues venga, 斡apurando![n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC08_me [Haru]]
+[s][vp 1 0 0 7145 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]De acuerdo, 夷nos vamos?[n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC09_me [Akechi]]
+[s][vp 8 2 1 8096 65535 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]No sabemos con qu姻 nos toparemos,[n]as胤 que vayamos con cuidado.[n][w][e]
+
+[msg SAFE_EXIT_LOW_02_PC10_me [[f 4 31 10 0]]]
+[s][vp 1 0 0 10145 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Sigamos![n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC02_me [Ryuji]]
+[s][vp 1 0 0 2146 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, hora de irse.[n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC03_me [Morgana]]
+[s][vp 1 0 0 3146 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Listo? 斡Vamos, Joker![n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC04_me [Ann]]
+[s][vp 1 0 0 4146 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Venga, sigamos![n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC05_me [Yusuke]]
+[s][vp 1 0 0 5146 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Volvamos a explorar.[n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC06_me [Makoto]]
+[s][vp 1 0 0 6146 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Recibido, adelante.[n]斡Contamos contigo, Joker![n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC07_me [Futaba]]
+[s][vp 1 0 0 8146 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Espera, 斡que me estoy preparando![n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC08_me [Haru]]
+[s][vp 1 0 0 7146 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos, al l胤o.[n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC09_me [Akechi]]
+[s][vp 1 0 0 9146 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Muy bien, vuelta al tajo.[n][w][e]
+
+[msg SAFE_EXIT_LOW_03_PC10_me [[f 4 31 10 0]]]
+[s][vp 1 0 0 10146 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Un poco m茨s![n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC02_m [Ryuji]]
+[s][vp 1 0 0 2147 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]El nivel de seguridad es alto,[n]as胤 que vayamos con cuidado.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC03_m [Morgana]]
+[s][vp 1 0 0 3147 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Recuerda que siempre podemos[n]retirarnos si hace falta.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC04_m [Ann]]
+[s][vp 1 0 0 4147 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, hay que seguir[n]un poco m茨s.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC05_m [Yusuke]]
+[s][vp 1 0 0 5147 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Observad el movimiento de las[n]sombras. Huele a peligro.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC06_m [Makoto]]
+[s][vp 1 0 0 6147 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Estamos en una situaci吋n precaria.[n]No perd茨is el norte.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC07_m [Futaba]]
+[s][vp 1 0 0 8147 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Mm, esto no pinta bien.[n]Nos lo vamos a tener que currar.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC08_m [Haru]]
+[s][vp 1 0 0 7147 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Est茨n en guardia.[n]Hay que prepararse.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC09_m [Akechi]]
+[s][vp 1 0 0 9147 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Debemos recuperar la concentraci吋n.[n]Id con cautela.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_01_PC10_m [[f 4 31 10 0]]]
+[s][vp 1 0 0 10147 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Cuidado, el enemigo todav胤a est茨 alerta.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC02_m [Ryuji]]
+[s][vp 1 0 0 2148 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Toma ya! La seguridad est茨[n]al m茨ximo, as胤 que toca ponerse serios.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC03_m [Morgana]]
+[s][vp 1 0 0 3148 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hay que seguir explorando...[n]pero 斡con much胤simo cuidado![n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC04_m [Ann]]
+[s][vp 1 0 0 4148 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Hay que ir con cuidado[n]y observar al enemigo.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC05_m [Yusuke]]
+[s][vp 1 0 0 5148 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Me divierte trabajar bajo presi吋n,[n]pero preparaos para la retirada[n]cuando haga falta.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC06_m [Makoto]]
+[s][vp 1 0 0 6148 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, pero correremos riesgos.[n]Mucho cuidado.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC07_m [Futaba]]
+[s][vp 1 0 0 8148 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]La cosa est茨 muy peliaguda.[n]No bajes la guardia.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC08_m [Haru]]
+[s][vp 1 0 0 7148 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Es un poco peligroso.[n]Hay que vigilar al enemigo.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC09_m [Akechi]]
+[s][vp 1 0 0 9148 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Fuera est茨n en m茨xima alerta.[n]Avancemos con mucho cuidado.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_02_PC10_m [[f 4 31 10 0]]]
+[s][vp 1 0 0 10148 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Estad listos para lo que sea.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC02_m [Ryuji]]
+[s][vp 1 0 0 2149 0 0][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, tengamos cuidado, Joker.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC03_m [Morgana]]
+[s][vp 1 0 0 3149 0 0][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Mmm... Hay que ir con m茨s cuidado[n]que de normal, Joker.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC04_m [Ann]]
+[s][vp 1 0 0 4149 0 0][bup 0 4 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]El nivel de seguridad es alto,[n]as胤 que hay que ir con cuidado.[n]No conviene forzar.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC05_m [Yusuke]]
+[s][vp 1 0 0 5149 0 0][bup 0 5 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Saben que estamos aqu胤, Joker,[n]as胤 que tranquilidad.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC06_m [Makoto]]
+[s][vp 1 0 0 6149 0 0][bup 0 6 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Est茨n muy alerta.[n]Actuemos con cautela.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC07_m [Futaba]]
+[s][vp 1 0 0 8149 0 0][bup 0 8 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Esto est茨 muy bien protegido.[n]斡Hora de lucirte, Joker![n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC08_m [Haru]]
+[s][vp 1 0 0 7149 0 0][bup 0 7 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Actuemos con cautela, 夷de acuerdo?[n]Joker, no tientes a la suerte.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC09_m [Akechi]]
+[s][vp 1 0 0 9149 0 0][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Nos esperan, Joker.[n]Avancemos con cautela.[n][w][e]
+
+[msg SAFE_EXIT_HIGH_03_PC10_m [[f 4 31 10 0]]]
+[s][vp 1 0 0 10149 0 0][bup 0 10 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ser茨 peligroso, pero espero[n]que podamos avanzar algo.[n][w][e]
+
+[msg D_RECOVERY_EV_mes01]
+[s]Al descansar, has [clr 6]recuperado PS[clr 27].[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0 [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Uf, descansemos un poco, t胤o.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_2 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 3154 65535 0]斡Vale, ya he descansado![n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_3 [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Deber胤amos dejarlo ya.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_4 [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Creo que nos hemos ganado[n]un descansillo.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_5 [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a descansar un rato.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_6 [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aaah, un rato para relajarnos.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_7 [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a descansar.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC0_8 [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a hacer un poco el vago.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_01_PC1 [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Descansamos un poco?[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0 [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]T胤胤胤o, estoy hecho mierda.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_2 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 3160 65535 0]斡Estoy como nuevo![n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_3 [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Puf, me vendr胤a bien un descanso.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_4 [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a descansar aqu胤[n]para recomponer nuestra fuerza.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_5 [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Puf, tengo que conseguir[n]que baje mi ritmo cardiaco.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_6 [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aaah, qu姻 bien sienta.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_7 [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Deber胤amos descansar,[n]aunque sea solo un poco.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC0_8 [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Paremos un rato.[n][w][e]
+
+[msg SAFE_RECOVERY_MES_02_PC1 [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos a descansar un rato aqu胤.[n][w][e]
+
+[msg SAFE_ACTIVE_IN_FIRST_PC0 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]El tesoro est茨 justo ah胤.[n]Vamos, Joker, a por 姻l.[n][w][e]
+
+[msg SAFE_ACTIVE_IN_SECOND_PC [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]El tesoro est茨 un poco lejos.[n]Joker, 夷seguro que este[n]es el mejor sitio para empezar?[n][w][e]
+
+[msg SAFE_ACTIVE_IN_DISTANT_P [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Oye, el tesoro no est茨 por aqu胤...[n]Te acuerdas de que esa es la raz吋n[n]por la que hemos venido hoy, 夷no?[n][w][e]
+
+[msg SAFE_ACTIVE_MES_PC03_mes [Morgana]]
+[s][bup 0 3 1 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1181 65535 0]Parece que esta sala es segura.[n][w][e]
+[s][bup 0 3 2 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aunque no podemos quedarnos mucho.[n]斡Vayamos a por el tesoro[n]despu姻s de descansar![n][w][e]
+
+[msg SAFE_ACTIVE_IN_DISCOVERY [Morgana]]
+[s][bup 0 3 4 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1022 65535 0]Vaya, no esperaba encontrar otra[n]Habitaci吋n segura hoy.[n][w][e]
+[s][bup 0 3 2 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Aunque no podemos quedarnos mucho.[n]斡Vayamos a por el tesoro[n]despu姻s de descansar![n][w][e]
+
+[msg SAFE_ACTIVE_EXIT_PC03_me [Morgana]]
+[s][bup 0 3 2 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1052 65535 0]斡Nuestro 雨nico objetivo hoy[n]es robar el tesoro! 斡Vamos![n][w][e]
+
+[msg SAFE_EXIT_D01_02_EX_PC03 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos. Acordaos de tener[n]cuidado por aqu胤.[n][w][e]
+
+[sel PROPOSAL_TALK_SEL top]
+[s]Aceptar la propuesta.[f 2 7 0 0 106 1][e]
+[s]No aceptar la propuesta.[f 2 7 0 0 106 1][e]
+
+[sel PROPOSAL_REST_SEL top]
+[s]Aceptar la propuesta.[f 2 7 0 0 106 1][e]
+[s]No aceptar la propuesta.[f 2 7 0 0 106 1][e]
+
+[msg VELVET_SPECIAL_TIME_REMI]
+[s]Estoy de los nervios. Creo que[n]podr胤a haber una alarma activada[n]en la Habitaci吋n Terciopelo.[n][w][e]
+
+[sel START_CHECK_SEL top]
+[s]Ir a la 雨ltima Habitaci吋n segura[e]
+[s]Infiltrarse tal cual[e]
+[s]No entrar a雨n[e]
+
+[msg START_CHECK_MES [Morgana]]
+[s][bup 0 3 0 65535 0]Bueno, 夷por d吋nde quieres[n]empezar a explorar?[n][w][e]
+
+[msg START_CHECK_MES_NEXT [Morgana]]
+[s][bup 0 3 0 65535 0]Elige sabiamente la ubicaci吋n.[n][w][e]
+
+[sel DUNGEON_EXIT_SEL top]
+[s]*Especial[e]
+[s]Volver al mundo real[e]
+[s]Quedarse un poco m茨s[e]
+
+[sel DUNGEON_EXIT_154_SEL top]
+[s]Ir a la ciudad[e]
+[s]Volver al mundo real[e]
+[s]Quedarse un poco m茨s[e]
+
+[sel DUNGEON_EXIT_155_SEL top]
+[s]Ir a la ciudad[e]
+[s]Volver al mundo real[e]
+[s]Quedarse un poco m茨s[e]
+
+[msg D01_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Kamoshida.[n]Buen trabajo.[n][w][e]
+
+[msg D02_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Madarame.[n]Buen trabajo.[n][w][e]
+
+[msg D03_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Kaneshiro.[n]Buen trabajo.[n][w][e]
+
+[msg D04_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Futaba.[n]Buen trabajo.[n][w][e]
+
+[msg D05_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Okumura.[n]Buen trabajo.[n][w][e]
+
+[msg D06_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Niijima.[n]Buen trabajo.[n][w][e]
+
+[msg D07_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Shido.[n]Buen trabajo.[n][w][e]
+
+[msg D08_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde Mementos. Buen trabajo.[n][w][e]
+
+[msg D10_EXIT_MES [Navegador del Metaverso]]
+[s]Volviendo al mundo real[n]desde el Palacio de Maruki.[n]Buen trabajo.[n][w][e]
+
+[msg DUNGEON_ROUTE_COMP_PC03_ [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1185 65535 0]Hemos asegurado un camino[n]hacia el tesoro. 夷Es que[n]quieres irte ahora?[n][w][e]
+
+[msg DUNGEON_ROUTE_COMP_PC04_ [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1174 65535 0]Solo podemos prepararnos[n]para el gran d胤a. 夷Y ahora qu姻?[n]夷Volvemos?[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC02 [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Ya volvemos?[n]Pero si no hemos hecho nada...[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC03 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Qu姻 ocurre, Joker? Todav胤a[n]no hemos hecho nada.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC04 [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Eh? 夷Ya te quieres ir a casa?[n]Si no hemos hecho nada.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC05 [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Qu姻 sucede?[n]Todav胤a queda mucho por explorar.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC06 [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Qu姻 ocurre? 夷Quieres volver?[n]Apenas hemos hecho nada.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC07 [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Eh? 夷Nos volvemos ya?[n]Hoy no hemos hecho nada.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC08 [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Qu姻 ocurre, Joker?[n]No hemos llegado a hacer nada hoy.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC09 [Akechi]]
+[s][bup 0 9 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Eh? 夷Quieres regresar? Pero si a雨n[n]no hemos conseguido nada[n]importante en lo que llevamos aqu胤.[n][w][e]
+
+[msg DUNGEON_EXIT_NOT_01_PC10 [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Eh? 夷Volvemos ya?[n]Hoy no hemos hecho nada.[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC02_mes [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7072 65535 0]夷Qu姻 ocurre?[n]夷Quieres volver y reagruparte?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1059 65535 0]夷Eh? 夷Quieres retirarte, Joker?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC04_mes [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 6072 65535 0]夷Qu姻 pasa?[n]夷Quieres que lo dejemos aqu胤?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC05_mes [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 4072 65535 0]夷Quieres que nos reunamos, Joker?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC06_mes [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 2120 65535 0]Mmm, 夷quieres volver?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC07_mes [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 9136 65535 0]Puede que sea buena idea[n]que nos reagrupemos.[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC08_mes [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 3001 65535 0]夷Es hora de retirarse?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC09_mes [Akechi]]
+[s][bup 0 9 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8130 65535 0]夷C吋mo? 夷Nos retiramos?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC10_mes [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 57089 65535 0]夷Quieres que nos reagrupemos?[n][w][e]
+
+[msg DUNGEON_EXIT_01_PC11_mes [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8130 65535 0]夷C吋mo? 夷Nos retiramos?[n][w][e]
+
+[msg ATD_EXIT_REMIND_FLOWER_V [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 53101 65535 0]Jose dijo que las flores[n]desaparecen cuando sales[n]de Mementos.[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]......[n][w][e]
+
+[msg ATD_EXIT_REMIND_FLOWER_V_2 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 53101 65535 0]Jose dijo que las flores[n]desaparecen cuando sales[n]de Mementos.[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Has recogido [clr 2][var 0][clr 27] flores[n]de momento. 夷Seguro[n]que quieres irte?[n][w][e]
+
+[msg ATD_EXIT_REMIND_FLOWER_V_3 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1185 65535 0]夷Eh? 夷Nos retiramos?[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Ahora mismo tienes [clr 2][var 0][clr 27] flores.[n]Si te vas, desaparecer茨n.[n][w][e]
+
+[msg ATD_EXIT_CABLE_VANISHED_ [Morgana]]
+[s][bup 0 3 2 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1185 65535 0]Ya hemos hecho todo lo que[n]ten胤amos que hacer.[n]Dej姻moslo por hoy.[n][w][e]
+
+[msg ATD_EXIT_CANCEL_CABLE_VA [Morgana]]
+[s][bup 0 3 2 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1035 65535 0]Muy bien. Exploremos un rato m茨s.[n][w][e]
+
+[msg D_EXIT_OK_01_PC02_mes [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7050 65535 0]Chachi, prosigamos.[n][w][e]
+
+[msg D_EXIT_OK_01_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1049 65535 0]Mmm, dej姻moslo por hoy.[n][w][e]
+
+[msg D_EXIT_OK_01_PC04_mes [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 6049 65535 0]V茨monos.[n][w][e]
+
+[msg D_EXIT_OK_01_PC05_mes [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 4049 65535 0]Mmm, muy bien. Nos vamos.[n][w][e]
+
+[msg D_EXIT_OK_01_PC06_mes [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 2049 65535 0]Vale, dej姻moslo por hoy.[n][w][e]
+
+[msg D_EXIT_OK_01_PC07_mes [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 9050 65535 0]斡S胤胤胤, v茨monos a casa![n][w][e]
+
+[msg D_EXIT_OK_01_PC08_mes [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 3049 65535 0]Muy bien, march姻monos a casa.[n][w][e]
+
+[msg D_EXIT_OK_01_PC09_mes [Akechi]]
+[s][bup 0 9 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8035 65535 0]Qu姻 buena idea. En ese caso,[n]march姻monos.[n][w][e]
+
+[msg D_EXIT_OK_01_PC10_mes [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 57066 65535 0]Entendido, 夷damos media vuelta?[n][w][e]
+
+[msg D_EXIT_OK_01_PC11_mes [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8138 65535 0]Qu姻 buena idea. En ese caso,[n]march姻monos.[n][w][e]
+
+[sel DUNGEON_EXIT_151_EX_SEL top]
+[s]*Especial[e]
+[s]Activar el [clr 6]Navegador del Metaverso[clr 27][e]
+[s]No activar el navegador[e]
+
+[msg DUNGEON_EXIT_D01_EX_mes [Ryuji]]
+[s][bup 0 2 0 65535 0]Si usamos el Navegador aqu胤,[n]volveremos al mundo real.[n][w][e]
+
+[msg D_EXIT_OK_D01_EX_mes [Ryuji]]
+[s][bup 0 2 0 65535 0]斡Estupendo, ha funcionado![n][w][e]
+
+[msg D_EXIT_NG_D01_EX_mes [Ryuji]]
+[s][bup 0 2 0 65535 0]夷Qu姻 haces? 斡Hay que salir de aqu胤![n][w][e]
+
+[msg D_EXIT_CANCEL_PC02_mes [Ryuji]]
+[s][bup 0 2 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7080 65535 0]Chachi, puedo seguir[n]si es eso lo que quieres.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1096 65535 0]Bueno, sigamos explorando.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC04_mes [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 6096 65535 0]Vale, vamos a echar otro vistazo[n]por esta zona.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC05_mes [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 4052 65535 0]Coincido. Seguro que quedan lugares[n]por visitar.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC06_mes [Makoto]]
+[s][bup 0 6 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 2081 65535 0]Tienes raz吋n, sigamos.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC07_mes [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 9130 65535 0]Vale, vamos a quedarnos[n]un poquito m茨s.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC08_mes [Haru]]
+[s][bup 0 7 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 3051 65535 0]Mmm, bueno, pong茨monos a explorar.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC09_mes [Akechi]]
+[s][bup 0 9 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8070 65535 0]Vale, sigamos un poco m茨s.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC10_mes [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 57163 65535 0]Vale. Solo un poquito m茨s.[n][w][e]
+
+[msg D_EXIT_CANCEL_PC11_mes [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8137 65535 0]斡No bajes la guardia![n][w][e]
+
+[msg ALERT_MAX_EXIT_mes00 [Morgana]]
+[s][bup 0 3 4 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1039 65535 0]斡Uf, esto no mola nada! El nivel[n]de seguridad de esta zona[n]es demasiado alto![n][w][e]
+[s][bup 0 3 2 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Nuestras vidas corren[n]peligro si nos quedamos.[n][w][e]
+[s]斡Tenemos que retirarnos, Joker![n][w][e]
+
+[msg ALERT_MAX_EXIT_mes01 [Ryuji]]
+[s][bup 0 2 104 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7044 65535 0]U-un momentito.[n]Estar胤a bien que...[n][w][e]
+
+[msg ALERT_MAX_EXIT_mes02 [Morgana]]
+[s][bup 0 3 3 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1082 65535 0]斡Las sombras no dejan[n]de multiplicarse! 斡Tenemos[n]que marcharnos, y r茨pido![n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC02 [Ryuji]]
+[s][bup 0 2 104 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7041 65535 0]斡夷Qu姻 dices, t胤o?! 斡Si ya hemos[n]mandado el aviso![n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Todo nuestro trabajo[n]se va a ir a tomar por culo[n]si no robamos el tesoro hoy![n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC03 [Morgana]]
+[s][bup 0 3 4 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1040 65535 0]夷Qu姻? 斡夷Es que no has escuchado[n]nada de lo que te he dicho?![n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Si no nos llevamos el tesoro hoy,[n]todo lo que hemos logrado[n]se ir茨 por la borda![n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC04 [Ann]]
+[s][bup 0 4 104 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 6039 65535 0]斡Eso no va a pasar! 斡Ni de broma![n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Todo nuestro plan se ir茨[n]al garete si no nos llevamos[n]el tesoro hoy mismo![n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC05 [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 4104 65535 0]夷Quieres volver? Ja, ja, anda que[n]mira que ponerte a gastar bromas[n]en medio de una misi吋n...[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]En fin, sigamos con lo que[n]est茨bamos haciendo.[n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC06 [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 2043 65535 0]Venga, basta de quejas.[n]夷Es que no eres el l胤der?[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Tenemos que hacernos con el tesoro[n]hoy, cueste lo que cueste![n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC07 [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, volvamos a casa...[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 9100 65535 0]Esto, eh... que era broma.[n]Nadie se va a largar ahora.[n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC08 [Haru]]
+[s][bup 0 7 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Cre胤a que no pod胤amos retirarnos[n]hasta haber enviado el aviso.[n][w][e]
+[s][bup 0 7 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 3136 65535 0]斡No te preocupes, Joker![n]斡Nosotros te apoyamos![n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC09 [Akechi]]
+[s][bup 0 9 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8112 65535 0]夷Quieres abandonar ahora[n]que hemos llegado hasta aqu胤?[n]No es muy propio de ti.[n][w][e]
+[s][bup 0 9 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Tenemos que intentar solucionar[n]esto hoy. Tienes mi apoyo.[n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC10 [[f 4 31 10 0]]]
+[s][bup 0 10 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 57118 65535 0]Pensaba que no pod胤amos volver[n]hasta que envi茨semos el aviso.[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vamos, Joker, yo tambi姻n[n]me esforzar姻 al m茨ximo.[n][w][e]
+
+[msg D_EXIT_NG_ACTIVE_01_PC11 [Akechi]]
+[s][bup 0 9 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 8018 65535 0]Hemos llegado muy lejos,[n]no podemos marcharnos ahora.[n][w][e]
+[s][f 4 10 65535 0 0][f 4 25 1 65535 0 0]斡Acabemos con esto![n][w][e]
+
+[msg SAFEROOM_EXIT_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷De veras quieres irte, Joker?[n][w][e]
+
+[msg SAFEROOM_EXIT_PC07_mes [Futaba]]
+[s][bup 0 8 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷En serio nos vamos a casa, Joker?[n][w][e]
+
+[msg D01_04_e166_015_mes01 [Ryuji]]
+[s][bup 0 2 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7103 65535 0]Chachi, ahora solo tenemos[n]que robar el tesoro que aparezca.[n]Por fin lleg吋 el momento.[n][w][e]
+
+[msg D01_04_e166_015_mes02 [Ann]]
+[s][bup 0 4 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Pero primero tenemos que enviar[n]el aviso. 夷Cu茨ndo lo hacemos?[n][w][e]
+
+[msg D01_04_e166_015_mes03 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Vale, dej姻moslo. Retir姻monos[n]por ahora, ya trataremos m茨s[n]ese tema en el escondite.[n][w][e]
+[s][bup 0 3 1 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1030 65535 0]斡Ah, y buen trabajo![n][w][e]
+
+[msg D02_MISSION_POINT_PC03_m [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1172 65535 0]Deber胤amos irnos e intentar[n]desactivar la seguridad del patio.[n][w][e]
+
+[msg D02_04_e210_240_mes01 [Ryuji]]
+[s][bup 0 2 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 7153 65535 0]Bueno, sigo preocupado...[n]pero no nos queda otra.[n][w][e]
+
+[msg D02_04_e210_240_mes02 [Yusuke]]
+[s][bup 0 5 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 4076 65535 0]No puedo ni imaginarme[n]qu姻 es el tesoro de Madarame...[n][w][e]
+
+[msg D02_04_e210_240_mes03 [Ann]]
+[s][bup 0 4 101 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Es igual, lo robaremos de todos[n]modos. 斡Ah, y hoy lo hab姻is[n]hecho de maravilla![n][w][e]
+
+[msg D03_FIRST_END_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1172 65535 0]La puerta cognitiva est茨 cerrada.[n]夷Deber胤amos volver ya?[n][w][e]
+
+[msg D06_FIRST_END_PC06_mes [Makoto]]
+[s][bup 0 6 100 0 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 2118 65535 0]Tenemos que reagruparnos[n]en el mundo real.[n][w][e]
+
+[msg D07_FIRST_END_PC03_mes [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0][vp 8 2 1 1174 65535 0]Entendido, Joker. 斡Retirada![n][w][e]
+
+[msg D01_EXIT_NG_EV01_mes01 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]夷Ad吋nde vas, Joker?[n][w][e]
+[s]Ya hemos revisado esas celdas.[n]Vamos a echarle un vistazo[n]al castillo por dentro.[n][w][e]
+
+[msg D01_EXIT_NG_EV01_mes02 [Morgana]]
+[s][bup 0 3 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Tenemos que pasar por la entrada[n]para llegar hasta all胤.[n]Pero 夷no estaba cerrada la puerta?[n][w][e]
+[s]Ser茨 imposible de conseguir[n]a menos que encontremos[n]otro camino a la primera planta.[n][w][e]
+
+[msg D07_DUNGEON_EXIT_SC_mes0 [Ryuji]]
+[s][bup 0 2 0 65535 0][f 4 10 65535 0 0][f 4 25 1 65535 0 0]Venga, hemos llegado hasta aqu胤.[n]Al menos vamos a comprobar[n]la zona primero.[n][w][e]
+

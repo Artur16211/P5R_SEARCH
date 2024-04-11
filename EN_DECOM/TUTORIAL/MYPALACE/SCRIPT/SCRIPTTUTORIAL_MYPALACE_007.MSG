@@ -1,0 +1,22 @@
+﻿/*=========================================================================
+ * パス
+ *=========================================================================*/
+
+
+#SPEAKER"Pass"
+@TUTORIAL_MSG01
+{
+You can choose to pass by pressing <COLOR_RED><PAD_KEY_NAME_CANCEL><COLOR_DEF> if you
+do not want to play a card during your turn.
+<WAIT>
+}
+
+
+#SPEAKER"Pass"
+@TUTORIAL_MSG02
+{
+You'll have to pass if you do not have any cards
+you can play. If all players pass, the turn will end.
+<WAIT>
+}
+

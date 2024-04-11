@@ -1,0 +1,22 @@
+﻿/*=========================================================================
+ * マイパレス
+ *=========================================================================*/
+#SPEAKER"Guarida de los Ladrones"
+@TUTORIAL_MSG01
+{
+En la Guarida de los Ladrones,
+podr茨s comprar y disfrutar de
+contenido extra con <COLOR_RED>medallas P<COLOR_DEF>.
+<WAIT>
+}
+
+
+#SPEAKER"Guarida de los Ladrones"
+@TUTORIAL_MSG02
+{
+Puedes obtener <COLOR_RED>medallas P<COLOR_DEF>
+mediante premios
+o jugando a Magnate.
+<WAIT>
+}
+

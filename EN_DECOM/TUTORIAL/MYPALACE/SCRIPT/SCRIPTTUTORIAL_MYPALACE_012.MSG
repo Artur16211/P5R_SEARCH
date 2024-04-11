@@ -1,0 +1,12 @@
+﻿/*=========================================================================
+ * スペ３返し
+ *=========================================================================*/
+
+#SPEAKER"3-Spade Reversal"
+@TUTORIAL_MSG01
+{
+Playing a 3 of Spades after a single Joker card will
+trigger a <COLOR_RED>3-Spade Reversal<COLOR_DEF> and end the turn.
+<WAIT>
+}
+

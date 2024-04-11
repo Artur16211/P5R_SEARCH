@@ -1,0 +1,27 @@
+[msg CROSSWORD_00_TEXT_00]
+[s]A type of outdoor allergy[n][w][e]
+
+[msg CROSSWORD_00_TEXT_01]
+[s]POLLENOSIS[n][w][e]
+
+[msg CROSSWORD_00_TEXT_02]
+[s]Sign of a cold[n][w][e]
+
+[msg CROSSWORD_00_TEXT_03]
+[s]Gets congested[n][w][e]
+
+[msg CROSSWORD_00_TEXT_04]
+[s][XLOC_NOTUSED][n][w][e]
+
+[msg CROSSWORD_00_TEXT_05]
+[s][XLOC_NOTUSED][n][w][e]
+
+[msg CROSSWORD_00_TEXT_06]
+[s][XLOC_NOTUSED][n][w][e]
+
+[msg CROSSWORD_00_TEXT_07]
+[s][XLOC_NOTUSED][n][w][e]
+
+[msg CROSSWORD_00_TEXT_08]
+[s][XLOC_NOTUSED][n][w][e]
+

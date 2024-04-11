@@ -1,0 +1,21 @@
+﻿/*=========================================================================
+ * 変身床
+ *=========================================================================*/
+#SPEAKER"Baldosa de transformaci吋n"
+@TUTORIAL_MSG01
+{
+Si pisas ciertas baldosas de la Guarida de los Ladrones,
+puedes <COLOR_RED>cambiar tu personaje por quien
+est姻 dibujado en la baldosa<COLOR_DEF>.
+<WAIT>
+}
+
+
+#SPEAKER"Baldosa de transformaci吋n"
+@TUTORIAL_MSG02
+{
+Si pisas la misma baldosa, podr茨s
+cambiar de atuendo. Pulsa <COLOR_RED><PAD_KEY_NAME_COSTUME_RESET><COLOR_DEF>
+para volver a tu estado normal.
+<WAIT>
+}

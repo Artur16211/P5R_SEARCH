@@ -1,0 +1,14 @@
+﻿/*=========================================================================
+ * カード交換
+ *=========================================================================*/
+
+#SPEAKER"Trading Cards"
+@TUTORIAL_MSG01
+{
+<COLOR_RED>Cards are traded<COLOR_DEF> before the next round begins:
+Tycoon and Beggar trade two cards, Rich and
+Poor trade one card, and Poor and Beggar must
+trade their best cards.
+<WAIT>
+}
+

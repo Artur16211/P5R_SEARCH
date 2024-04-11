@@ -1,0 +1,20 @@
+﻿/*=========================================================================
+ * マイパレス
+ *=========================================================================*/
+#SPEAKER"Thieves Den"
+@TUTORIAL_MSG01
+{
+In the Thieves Den, you can use <COLOR_RED>P Medals<COLOR_DEF> to purchase
+and enjoy a variety of extra content.
+<WAIT>
+}
+
+
+#SPEAKER"Thieves Den"
+@TUTORIAL_MSG02
+{
+You can obtain <COLOR_RED>P Medals<COLOR_DEF> by obtaining awards, or by
+playing Tycoon.
+<WAIT>
+}
+
